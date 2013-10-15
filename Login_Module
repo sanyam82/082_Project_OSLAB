@@ -1,0 +1,79 @@
+#include<stdio.h>
+
+int main()
+{
+    int choice;
+    char name[20];
+    char passkey[10];
+    printf("********************************************************************************");
+    printf("*\t\t\t     Ongoing Events In Campus                          *");
+    printf("********************************************************************************");
+    
+    printf("\n\n\n\n\n\n\n\t\t\t          Login");
+    printf("\n\n\t\t\t1. Login as Administrater:");
+    printf("\n\t\t\t2. Login as Event Head:");
+    printf("\n\t\t\t3. Login as Student:");
+    printf("\n\t\t\t4. Exit:");
+    printf("Choice(1-4):");
+    scanf("%d",&choice);
+    switch(choice)
+    {
+              case 1:
+                   
+                   printf("\n\n\nUsername :");
+                   scanf("%s",name);
+                   printf("Password:");
+                   scanf("%s",passkey);
+                   printf("\n\n\n");         
+                   
+                   
+                   printf("\n1. All Request by the Event Head");
+                   printf("\n2. All Accepted Events");       
+                   printf("\n3. All Rejected Events");
+                   printf("\n4. LOGOUT");
+                   printf("\nChoice(1-4) :");
+                   
+                   break;
+                   
+              case 2:
+                   
+                   
+                   printf("\n\n\nUsername :");
+                   scanf("%s",name);
+                   printf("Password :");
+                   scanf("%s",passkey);
+                   printf("\n\n\n");         
+                   
+                   printf("\n1. Add New Event:");
+                   printf("\n2. See Previous Event:");       
+                   printf("\n3. LOGOUT");
+                   printf("\nChoice(1-3) :");
+                   
+                   break;
+                   
+              case 3:
+                   
+                   printf("\n\n\nUsername :");
+                   scanf("%s",name);
+                   printf("Password:");
+                   scanf("%s",passkey);
+                   printf("\n\n\n");         
+                   
+                   printf("\n1. See All Ongoing Events");
+                   printf("\n2. Best Suited Events: ");       
+                   printf("\n3. LOGOUT");
+                   printf("\nChoice(1-3) :");
+                   
+                   break;
+              
+              case 4:
+                   exit(0);
+              default :
+                   printf("Invalid Input");
+                   getch();
+                   exit(0);
+              
+              }   
+                   
+getch();
+}
