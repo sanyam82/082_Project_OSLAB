@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+int main()
+{
+
+    printf("\t\t\t\t\t\t    Hello! Sanyam :::: LOGOUT");
+    printf("\n\n\n\n                            Ongoing Events In Campus");
+    printf("\n\n\n\n REQUESTS :");
+    printf("\n\n1. Request From Sanyam jain ,                       ::::  ACCEPT || REJECT ");
+    printf("\n   From MCA II year for the event Named VERSION");
+    printf("\n   POSTER FILE || EVENT LIST");
+    printf("\n\n2. Request From Sunil Hirole ,                      ::::  ACCEPT || REJECT ");
+    printf("\n   From Btech III year for the event Named FESTEMBER");
+    printf("\n   POSTER FILE || EVENT LIST");
+     
+     
+     printf("\n\n\n\nChoice :");
+     int choice;
+     scanf("%d",&choice);
+     
+     switch(choice)
+     {
+             case 1 :
+                 break;
+             case 2 :
+             break;
+             
+     }
+                        
+                                
+                     
+    
+    
+    
+    getch();
+    
+}
