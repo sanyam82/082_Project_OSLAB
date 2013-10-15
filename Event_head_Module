@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main()
+{
+    char name[20];
+    char theme[20];
+    printf("\t\t\t\t\t\t    Hello! Sanyam :::: LOGOUT");
+    printf("\n\n\n\n                            Ongoing Events In Campus");
+    
+    printf("\n\n\n\nRequesting an Event ");
+    printf("\n\n1. Name Of the event :");
+    scanf("%s",name);
+    printf("\n2. Theme Of the Event(Null if no):");
+    scanf("%s",theme);
+    
+    printf("\n\nUpload Your Poster File ::::: Upload");
+    printf("\n\nUpload the permission From Staff advisor :::: Upload");
+    
+    
+    getch();
+    
+}
+    
+     
